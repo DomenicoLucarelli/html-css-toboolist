@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header h1{
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: text-bottom;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+header img{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 8px;
+}
+/* /header */
