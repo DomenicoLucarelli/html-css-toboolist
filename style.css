@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
 
 header h1{
     display: inline-block;
-    line-height: 50px;
+    line-height: 1.8;
     vertical-align: text-bottom;
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
     font-size: 40px;
 
 }
@@ -29,17 +30,28 @@ header img{
     background-color: #f6f8f9;
     padding-top:30px;
 }
-
 nav{
-    width: 50%;
     height: 8%;
+
+}
+nav, main{
+    width: 50%;
     margin: auto;
     background-color: white;
     border-radius: 10px;
     padding-left: 40px;
+    max-height: fit-content;
     
 }
 
+main{
+    margin-top: 5px;
+    /* padding-top: 15px; */
+    padding-bottom: 20px;
+    color: #3f434c;
+    font-weight: bolder;
+
+}
 button{
     border-radius:8px;
     margin-right: 5px;
@@ -57,4 +69,50 @@ button{
     color: #d3d8db;
     background-color: white ;
     border:1px solid #d3d8db;
+}
+
+/* main */
+details{
+    padding-top: 40px;
+}
+
+strong{
+    font-size: larger;
+    font-weight: bold;
+}
+
+details .description{
+    background-color: #45abea;
+    padding:5px 10px;
+    border-radius:20px ;
+    font-size: small;
+    color: white;
+}
+#violet-color{
+    background-color: #9c72e4;
+}
+
+#acquamarine-color{
+    background-color: #64c0a9;
+}
+
+#orange-color{
+    background-color: #f29e33;
+}
+
+#pink-color{
+    background-color: #d863a1;
+}
+
+#green-color{
+    background-color: #b0c926;
+}
+
+#blue-color{
+    background-color: #45abea ;
+}
+
+
+.span-margin{
+    margin-top: 50px;
 }
