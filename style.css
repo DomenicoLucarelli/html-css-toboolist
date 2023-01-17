@@ -5,6 +5,7 @@
 }
 
 /* header */
+
 header h1{
     display: inline-block;
     line-height: 50px;
@@ -18,5 +19,42 @@ header img{
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 8px;
+    padding-bottom:15px;
 }
 /* /header */
+
+/* divcontainer */
+.container{
+    height:88vh;
+    background-color: #f6f8f9;
+    padding-top:30px;
+}
+
+nav{
+    width: 50%;
+    height: 8%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 40px;
+    
+}
+
+button{
+    border-radius:8px;
+    margin-right: 5px;
+    margin-top: 12px;
+    padding: 5px;
+    
+}
+#first-button{
+    background-color: #47adf1;
+    color: white;
+    border: none;
+    
+}
+ #second-button{
+    color: #d3d8db;
+    background-color: white ;
+    border:1px solid #d3d8db;
+}
